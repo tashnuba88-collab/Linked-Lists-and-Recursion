@@ -86,3 +86,17 @@ By focusing on **linked lists** (for dynamic insertion/deletion) and **recursion
 ## Submission
 Once the lab is complete, all tests are passing, and you've pushed the completed code to 
 your forked repo on GitHub, submit your GitHub repo through Canvas using CodeGrade.
+
+
+## How to run
+
+python3 main.py
+
+## How to test
+
+python3 -m pytest
+
+## What the output means
+
+main.py builds a list of employee IDs, then prints the list, the sum of the IDs,
+whether two IDs are found (103 is, 999 is not), and the list after reversing it in place.
